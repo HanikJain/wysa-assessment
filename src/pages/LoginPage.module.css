@@ -1,0 +1,74 @@
+.loginContainer{
+    width: 40%;
+    background-color: #f3f4ff;
+    border-radius: 1rem;
+    border: 1px solid #4f93f9;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.inValid{
+    color: red !important;
+}
+
+.inputBox {
+    width: 99%;
+    border-radius: 10px;
+    margin: auto ;
+    padding: 0.7rem ;
+    box-sizing: border-box ;
+}
+
+
+.Button{
+    background-color: #4f93f9;
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    color: #fff;
+    border: 1px solid #4f93f9;
+    padding: 0.4rem 1.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 0 0.2rem 1rem;
+}
+
+.Button:hover,
+.Button:active {
+  filter : brightness(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.3rem;
+    width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .loginContainer{
+        width: 90%;
+    }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+    .loginContainer{
+        width: 70%;
+    }
+}
