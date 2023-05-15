@@ -2,7 +2,7 @@
 
 ## Live Project
 
-https://wysa-assessment.onrender.com/
+https://wysa-assessment.vercel.app/
 
 ## Getting Started
 
